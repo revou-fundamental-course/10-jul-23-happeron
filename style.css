@@ -1,0 +1,56 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling untuk body agar center di tengah layar */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #124e78;
+}
+
+/* Styling untuk container kalkulator BMI */
+.bmi-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling untuk form group (setiap input dan label) */
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="number"],
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgb(17, 13, 13);
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+/* Styling untuk tombol "Hitung BMI" */
+.form-group input[type="submit"] {
+    background-color: #5d98d6;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+/* Styling untuk hasil kalkulasi BMI */
+.bmi-result {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
